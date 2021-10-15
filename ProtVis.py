@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit.components.V1 as components
+import streamlit.components.v1 as components
 id=st.text_input("Enter the PDB Id:")
 if id:
   components.html(
